@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:98vw;
+    height:100vh;
+    background-image: url("devyang8.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 15px 300px;
+    float: right;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: dotted;
+    color: black;
+    margin: 10px;
+    padding: 5px 6px;
+    transition: all 1s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    /* background-color: burlywood; */
+    /* color: aliceblue; */
+    border-radius: 14px;
+}
+.box1{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.box1 img{
+    border-radius: 14px;
+    height: 80%;
+    width: 50%;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul{
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-right: 550px;
+    float: right;
+}

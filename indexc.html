@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:98vw;
+    height:100vh;
+    background-image: url("devyang8.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+ul {
+    margin: 15px 300px;
+    float: right;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: dotted;
+    color: black;
+    margin: 10px;
+    padding: 5px 6px;
+    transition: all 1s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+input{
+    width:20vw;
+    height:20px;
+    border-radius: 10px;
+}
+
+.contact1{
+    margin-left: 480px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width:10vw;
+    background-color: antiquewhite;
+    border-radius: 14px;
+}
+
+footer ul{
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-right: 550px;
+    float: right;
+}
+</style>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html"><b>Home</b></a></li>
+            <li><a href="indexs.html"><b>States</b></a></li>
+            <li><a href="indexa.html"><b>About Us</b></a></li>
+            <li><a href="indexc.html"><b>Contact Us</b></a></li>
+        </ul>
+    </header>
+    
+    <div class="contact1">
+        <h1>Contact Us !</h1>
+    </div>
+    <div class="contact">
+    <form >
+        <div >
+            <h3>Your Name</h3>    
+            <br>
+             <input  type="text" placeholder="Enter Your Name">
+        </div>
+        <br>
+        <div>
+            <h3>Your Email</h3>  
+            <br>
+             <input type="text" placeholder="Enter Your Email">
+        </div>
+        <br>
+        <div>
+            <h3>Your Phone (with country code)</h3>
+            <br>
+            <input id="number" type="number" name="mynumber" placeholder="Enter Your Number">
+        </div>
+        <br>
+        <div>
+            <h3>Describe why you want to contact me for here</h3>
+            <br>
+            <textarea  name="yourmessage" cols="70" rows="10" placeholder="Your message"></textarea>
+        </div>
+        <br>
+        <div>
+            <button >Sumbit</button>
+        </div>
+    </form>
+</div>
+    <footer>
+        <div class="heading">
+            <b style="font-size: 20px;" > @ 2022 indianculture.com </b>
+        </div>
+        <ul>
+            <li><a href="indexc.html"><b>Back to Top</b></a></li>
+            <li><a href=""><b>Privacy Policy</b></a></li>
+            <li><a href=""><b>Terms</b></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

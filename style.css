@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:98vw;
+    height:100vh;
+    background-image: url("devyang8.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    margin: 15px 300px;
+    float: right;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: dotted;
+    color: black;
+    margin: 10px;
+    padding: 5px 6px;
+    transition: all 1s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.culture {
+    margin-top: 100px;
+    width: 60vw;
+    height: auto;
+    float: right;
+}
+
+#image1 {
+    margin-top: 163px;
+    margin-left: 43px;
+    width: 10vw;
+    height: 30vh;
+    float: left;
+}
+.religion{
+    margin-top: 100px;
+    float:left;
+}
+#buddhism{
+    border: 2px solid rgb(240, 212, 175);
+    border-radius: 14px;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+#hinduism{
+    border: 2px solid rgb(240, 212, 175);
+    border-radius: 14px;
+    margin-left: 385px;
+}
+#christian{
+    border: 2px solid rgb(240, 212, 175);
+    border-radius: 14px;
+    margin-left: 760px;
+}
+#sikhism{
+    border: 2px solid rgb(240, 212, 175);
+    border-radius: 14px;
+    margin-left: 1140px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul{
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-right: 550px;
+    float: right;
+    display: flex;
+    align-items: flex-end;
+    height:42px;
+}
+footer div{
+    position: absolute;
+    top:288vh;
+    left:42vw;
+}

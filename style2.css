@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:98vw;
+    background-image: url("devyang8.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    margin: 15px 300px;
+    float: right;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: dotted;
+    color: black;
+    margin: 10px;
+    padding: 5px 6px;
+    transition: all 1s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 15px;
+}
+.states{
+    margin-top: 70px;
+    display:grid;
+    width:98vw;
+    grid-gap: 30px 30px;
+    grid-template-columns: 22vw 22vw 22vw 22vw;
+    /* grid-template-rows: 22vh 22vh 22vh 22vh; */
+}
+.state{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:20vw;
+    height:20vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* background-size: cover; */
+    /* background-image: url("devyang8.jpg"); */
+    border:2px transparent wheat;
+    border-radius: 14px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul{
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-right: 550px;
+    float: right;
+}
+#andhra{
+    background-size: cover; 
+    background-image: url("andhra.jpg");
+}
+#arunachal{
+    background-size: cover;
+    background-image: url("arunachal.jpg");
+}
+#assam{
+    background-size: cover;
+    background-image: url("assam.jpg");
+}
+#bihar{
+    background-size: cover;
+    background-image: url("bihar.jpg");
+}
+#chatisgarh{
+    background-size: cover;
+    background-image: url("chatisgarh.jpg");
+}
+#goa{
+    background-size: cover;
+    background-image: url("goa.jpg");
+}
+#gujarat{
+    background-size: cover;
+    background-image: url("gujrat.jpg");
+}
+#haryana{
+    background-size: cover;
+    background-image: url("haryana.jpg");
+}
+#himachal{
+    background-size: cover;
+    background-image: url("himachal1.jpg");
+}
+#jharkhand{
+    background-size: cover;
+    background-image: url("jharkhand.png");
+}
+#karnataka{
+    background-size: cover;
+    background-image: url("karnataka.jpg");
+}
+#kerala{
+    background-size: cover;
+    background-image: url("kerala.jpeg");
+}
+#mp{
+    background-size: cover;
+    background-image: url("mp.jpg");
+}
+#maharashtra{
+    background-size: cover;
+    background-image: url("maharashtra.jpg");
+}
+#manipur{
+    background-size: cover;
+    background-image: url("manipur.jpg");
+}
+#meghalaya{
+    background-size: cover;
+    background-image: url("meghalya.jpg");
+}
+#mizoram{
+    background-size: cover;
+    background-image: url("mizoram.jpg");
+}
+#nagaland{
+    background-size: cover;
+    background-image: url("nagaland.jpg");
+}
+#odisha{
+    background-size: cover;
+    background-image: url("odisha.jpg");
+}
+#punjab{
+    background-size: cover;
+    background-image: url("punjab.jpg");
+}
+#rajasthan{
+    background-size: cover;
+    background-image: url("rajasthan.jpg");
+}
+#sikkim{
+    background-size: cover;
+    background-image: url("sikkim.jpg");
+}
+#tamil{
+    background-size: cover;
+    background-image: url("tn.jpg");
+}
+#telangana{
+    background-size: cover;
+    background-image: url("telangana.jpg");
+}
+#tripura{
+    background-size: cover;
+    background-image: url("tripura.jpg");
+}
+#up{
+    background-size: cover;
+    background-image: url("up.jpg");
+}
+#uk{
+    background-size: cover;
+    background-image: url("uk.jpg");
+}
+#wb{
+    background-size: cover;
+    background-image: url("wb.jpg");
+}
